@@ -1,7 +1,6 @@
 body, html {
     height: 100%;
-    font-family: "Lato", sans-serif;
-    
+    font-family: "Lato", sans-serif;  
 }
 
 
@@ -16,12 +15,14 @@ body, html {
 }
 
 .img2 {
-    background-image: url(../images/Space2.jpg);
+    position: relative;
+    background-image: url(../images/img2.jpg);
     height: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;    
+    background-size: cover;   
+    
 }
 
 .bar1 {
@@ -32,8 +33,44 @@ body, html {
     text-align: center;
     color: #b7cbd6;
 }
-
+ .bar2 {
+     position: relative;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #171915;
+    
+ }
 .navbar {
     background-color: #ff000000 !important;
+    
 }
 
+.navbar-brand {
+    color: #ffffff !important;
+}
+
+.navbar-toggler {
+    color: #ffffff !important;
+    background-color: #7d858f;
+}
+
+.navbar-collapse {
+    color: #ffffff !important;
+    background-color: #d5c4a7;
+    text-align: center;
+}
+
+.profile {
+    border-radius: 50%;
+    left: 0;
+    top: 12.5%;
+    width: 25%;
+
+}
+
+.do {
+    margin-top: 50% !important;
+    background-color: #6d564391;
+}
