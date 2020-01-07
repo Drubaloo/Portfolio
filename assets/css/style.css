@@ -25,6 +25,16 @@ body, html {
     
 }
 
+.img3 {
+    position: relative;
+    background-image: url(../images/img3.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
 .bar1 {
     position: absolute;
     left: 0;
@@ -43,6 +53,15 @@ body, html {
     text-align: center;
     color: #ccc7c2;
     
+ }
+
+ .bar3 {
+    
+    left: 0;
+    top: 1%;
+    width: 100%;
+    text-align: center;
+    color: #bc8b5a;
  }
 .navbar {
     background-color: #ff000000 !important;
@@ -77,8 +96,11 @@ body, html {
 }
 
 .do2 {
-    
     background-color: #6d564391;
+}
+
+.do3 {
+    background-color: #0f101c7a;
 }
 
 .black-overlay {
@@ -86,6 +108,12 @@ body, html {
     height: 100%;
 }
 
-.portfolio.hover {
-    height: 150%;
+.contact-overlay {
+    background: #0000004d;
+    height: 78%;
+}
+
+.portfolio-image {
+    height: auto;
+    width: auto;
 }
