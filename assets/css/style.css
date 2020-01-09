@@ -117,3 +117,26 @@ body, html {
     height: auto;
     width: auto;
 }
+
+.image {
+    max-width: 100%;
+}
+
+.portImg {
+    max-width: 100% !important;
+    max-height: 100% !important;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .img2{
+        height: 215%;
+        
+    }
+    }
+
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+        .img2{
+            height: 135%
+        }
+        }
