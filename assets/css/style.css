@@ -131,12 +131,14 @@ body, html {
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     .img2{
         height: 215%;
-        
     }
+    
+
+
     }
 
     @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
         .img2{
-            height: 135%
+            height: 150%
         }
         }
