@@ -64,17 +64,6 @@ body, html {
     color: #bc8b5a;
 }
 
-.bar4{
-    
-    position: relative;
-    left: 0;
-    margin-top: 75%;
-    width: 100%;
-    text-align: center;
-    color: #b7cbd6;
-        
-    
-}
 .navbar {
     background-color: #ff000000 !important;
     
@@ -143,13 +132,6 @@ body, html {
 
 #contact
 
-
-
-
-
-
-
-
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     .img2{
         height: 250%;
@@ -168,7 +150,7 @@ body, html {
         .img3 {
             height: 100%
         }
-  }
+}
 
 
 
