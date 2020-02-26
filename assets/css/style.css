@@ -24,6 +24,7 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;   
     
+    
 }
 
 .img3 {
@@ -134,7 +135,8 @@ body, html {
 .resize {
     width: 50%;
     height: 50%;
-
+    color: black;
+    font-size: xx-large;
 }
 
 #portfolio
